@@ -1,0 +1,15 @@
+<form  [formGroup]="formulario" (ngSubmit)="onSubmit()" class="example-form">
+    <h1>Login</h1>
+  <mat-form-field class="example-full-width">
+    <mat-label>Ingrese primer Valor</mat-label>
+    <input matInput placeholder="Username" formControlName="username">
+  </mat-form-field><br>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Ingrese segundo Valor</mat-label>
+    <input matInput placeholder="Password" formControlName="password">
+  </mat-form-field><br>
+  <br>
+  <button mat-raised-button color="primary">Login</button>
+  <br><br>
+</form>

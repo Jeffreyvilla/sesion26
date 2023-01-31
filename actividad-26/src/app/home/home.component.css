@@ -1,0 +1,14 @@
+.usuarios{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+table{
+    width: 750px;
+}
+
+.label{
+    text-align: center;
+    margin: 50px;
+}
